@@ -3,7 +3,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #0b282e; /* Fondo oscuro */
+	background-color: #0b282e;
 }
 
 .search_container {
@@ -15,7 +15,7 @@
 }
 
 .input_style {
-	border: 2px solid #70a925; /* Borde verde */
+	border: 2px solid #70a925;
 	width: 70%;
 	border-radius: 25px;
 	padding: 1em 1.5em;

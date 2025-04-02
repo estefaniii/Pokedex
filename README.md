@@ -11,13 +11,13 @@ cat << 'EOF' > README.md
 
 ## ✨ Key Features
 
-| 🔍 | 📊 | 🎨 |
-|----|----|----|
-| **Advanced search** by name or type | **Detailed stats** visualization | **Type-specific** color themes |
+| 🔍 | 📊 |
+|----|----|
+| **Advanced search ** by name or type | **Detailed stats** visualization |
 
-| 📱 | 🔄 | 🌓 |
-|----|----|----|
-| **Responsive design** | **Pagination** system | **Dark/Light** mode |
+| 📱 | 🔄 |
+|----|----|
+| **Responsive design** | **Pagination** system |
 
 ## 🛠️ Technologies Used
 

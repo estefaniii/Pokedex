@@ -13,7 +13,7 @@ cat << 'EOF' > README.md
 
 | 🔍 | 📊 |
 |----|----|
-| **Advanced search ** by name or type | **Detailed stats** visualization |
+| **Advanced search** by name or type | **Detailed stats** visualization |
 
 | 📱 | 🔄 |
 |----|----|

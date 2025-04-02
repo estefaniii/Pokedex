@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@import 'tailwindcss';
+
+@layer base {
+	:root {
+		--color-bg: 23 23 23;
+
+		--color-card: 38 38 38;
+
+		--color-text: 229 229 229;
+
+		--color-primary: 239 68 68;
+
+		--color-secondary: 59 130 246;
+	}
+
+	body {
+		@apply bg-[rgb(var(--color-bg))] text-[rgb(var(--color-text))];
+
+		font-family: 'Roboto', sans-serif;
+	}
+
+	h1,
+	h2,
+	h3 {
+		@apply font-bold tracking-tight;
+
+		font-family: 'Pokemon Solid', sans-serif;
+	}
+
+	h1 {
+		@apply text-4xl;
+
+		letter-spacing: 0.1em;
+
+		-webkit-text-stroke: 2px #3b82f6;
+
+		text-stroke: 2px #3b82f6;
+
+		color: #ffde00;
+
+		text-shadow: 4px 4px 0 #3761a8;
+	}
+}
+
+@layer components {
+	.btn-primary {
+		@apply px-6 py-3 bg-red-500 hover:bg-red-600 text-white font-bold rounded-full transition-all transform hover:scale-105 shadow-lg;
+	}
+
+	.pokemon-card {
+		@apply relative overflow-hidden rounded-2xl shadow-xl border-4 border-gray-700 bg-gray-800 transition-all duration-300 hover:scale-105 hover:shadow-2xl;
+	}
+
+	.type-badge {
+		@apply px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider;
+	}
+
+	.stat-bar {
+		@apply h-2 rounded-full bg-gray-700 overflow-hidden;
+	}
+}
